@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	ev "github.com/minh211099/goEvenLoop/EventLoop"
-	"github.com/nguyenzung/go-event-loop/threadutils"
+	ev "github.com/minh211099/goEvenLoop/eventloop"
+	"github.com/minh211099/goEvenLoop/threadutils"
 )
 
 func main() {
