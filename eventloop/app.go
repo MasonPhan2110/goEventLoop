@@ -1,5 +1,7 @@
 package eventloop
 
+import "fmt"
+
 type App struct {
 	events chan IEvent
 }
@@ -10,4 +12,6 @@ func (app *App) exec() {
 	}
 }
 
-func (app *App) NewApp() {}
+func (app *App) NewApp() {
+	fmt.Println("New App run")
+}
