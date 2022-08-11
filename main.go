@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"reflect"
 
-	ev "github.com/minh211099/goEvenLoop/eventloop"
 	"github.com/minh211099/goEvenLoop/threadutils"
+	ev "github.com/minh211099/goEventLoop/eventloop"
 )
 
 func main() {
